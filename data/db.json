@@ -1,0 +1,40 @@
+{
+  "blogs": [
+    {
+      "title": "My First blog",
+      "body": "Why do we use it?\n It is a long established fact that a reader wuill be distrated ",
+      "author": "mario",
+      "id": 1
+    },
+    {
+      "title": "Opening Party!",
+      "body": "Why do we use it?\n It is a long established fact that a reader wuill be distrated ",
+      "author": "yoshi",
+      "id": 2
+    },
+    {
+      "title": "sdas",
+      "body": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available",
+      "author": "mario",
+      "id": 3
+    },
+    {
+      "title": "Hello ninjas Again!",
+      "body": "soifh  oishoiashga pehfioHF IOH AKDFHOIEAHALKFN eoihgsdgkNfew eglsdnfefl akgjpqgn poqehkae ahgdv paefhalk gu hi gg jh l;kui fd cv jk",
+      "author": "yoshi",
+      "id": 4
+    },
+    {
+      "title": "sdrsrd",
+      "body": "sdrsdfgsreg arasr garta rtarawrt aawryer awrtawry are awr aw yary ryre yaeyeye aeraer terer  aeare re ree ",
+      "author": "mario",
+      "id": 5
+    },
+    {
+      "title": "Weather Update",
+      "body": "It was a nice summer and pleasant day. I was feeling fresh so thought of learning React.js",
+      "author": "mario",
+      "id": 6
+    }
+  ]
+}
