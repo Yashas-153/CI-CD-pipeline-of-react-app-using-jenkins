@@ -7,7 +7,7 @@ const Home = () => {
     const {data:blogs,ispending,Error} = useFetch("http://localhost:4000/blogs")
 
     return ( 
-        <div className="home">
+        <div className="container mx-auto w-50 mt-5">
             { Error && <div> {Error}</div>}
             {ispending && <div> Loading...</div>}
             {blogs && <BlogList blogs = {blogs} title = "All blogs" style={{"color":"blue"}}/> }
