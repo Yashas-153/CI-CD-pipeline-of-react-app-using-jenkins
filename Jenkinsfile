@@ -3,8 +3,8 @@ pipeline {
     environment {
         PORT = "85"
         DOCKERHUB_CREDENTIAL_ID="dockerhub"
-        IMAGE NAME="yashas252/devops-project"
-        CONTAINER NAME "devops-project"
+        IMAGE_NAME="yashas252/devops-project"
+        CONTAINER_NAME = "devops-project"
         GIT_REPO = "https://github.com/Yashas-153/blog-website.git"
         GIT_BRANCH="main"
     }
