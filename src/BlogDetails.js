@@ -3,7 +3,7 @@ import useFetch from "./useFetch";
 const BlogDetails = () => {
     
     const { id } = useParams();
-    const {data:blog, isPending, error} = useFetch('/data/db.json/blogs/' + id);
+    const {data:blog, isPending, error} = useFetch('/data/db.json/blogs' + id);
     const history = useHistory();
     const handledelete = ()=>{
         fetch('/data/db.json/blogs/blogs/' + blog.id,{

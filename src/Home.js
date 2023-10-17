@@ -4,7 +4,7 @@ import useFetch from './useFetch';
 
 const Home = () => {
     
-    const {data:blogs,ispending,Error} = useFetch("http://localhost:4000/blogs")
+    const {data:blogs,ispending,Error} = useFetch("/data/db.json")
 
     return ( 
         <div className="container mx-auto w-50 mt-5">
