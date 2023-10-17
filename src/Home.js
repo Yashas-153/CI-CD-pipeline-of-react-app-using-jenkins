@@ -5,7 +5,7 @@ import useFetch from './useFetch';
 const Home = () => {
     
     const {data:blogs,ispending,Error} = useFetch("/data/db.json/blogs")
-
+    
     return ( 
         <div className="container mx-auto w-50 mt-5">
             { Error && <div> {Error}</div>}

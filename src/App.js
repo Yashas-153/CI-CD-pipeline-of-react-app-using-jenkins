@@ -11,6 +11,7 @@ function App() {
     <Router>
       <div className="App">
         <Navbar/>
+        <Create />
         {/* <div className='Content'> */}
           <Switch>
             <Route exact path ="/">
