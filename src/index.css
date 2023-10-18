@@ -51,7 +51,7 @@
 }
 .create h2{
   font-size: 20px;
-  columns: #f1256d;
+  columns: rgb(29, 164, 232);
   margin-bottom: 30px;
 }
 
@@ -66,7 +66,7 @@
 
 }
 .create button{
-  background:#f1356d ;
+  background:rgb(29, 164, 232);
   color:white;
   border : 0;
   padding:8px;
